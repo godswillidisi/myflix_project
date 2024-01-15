@@ -1,0 +1,11 @@
+# docker-compose.yml
+
+version: '3'
+
+services:
+  web:
+    build: .
+    command: gunicorn myflix.wsgi:application -b 0.0.0.0:8000 -w 4  # Adjust the number of workers
+    ports:
+      - "8000:8000"
+    # Add other configurations as needed
