@@ -2,4 +2,4 @@
 new project
 a clone of netflix
 done using django and postGRE.
-Jenkins setup and Docker, Nginx
+Jenkins setup and Docker
